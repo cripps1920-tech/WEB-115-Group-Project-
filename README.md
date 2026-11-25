@@ -3,35 +3,26 @@ Interactive browser-based adventure game created for WEB-115 using HTML, CSS, an
 
 # Flow Chart 
 flowchart TD
-    A[Scene 1 Survival/TBD] --> B(Scene 2A)
-    A --> C(Scene 2B)
-    B --> D(Scene 3A)
-    B --> E(Scene 3B)
-    C --> F(Scene 3C)
-    C --> G(Scene 3D)
-    D --> H(Scene 4A)
-    D --> I(Scene 4B)
-    E --> J(Scene 4C)
-    E --> K(Scene 4D)
-    F--> L(Scene 4E)
-    F --> M(Scene 4F)
-    G --> N(Scene 4G)
-    G --> O(Scene 4H)
-    H --> P(Ending 1A)
-    H --> Q(Ending 1B)
-    I --> R(Ending 2A)
-    I --> S(Ending 2B)
-    J --> T(Ending 3A)
-    J --> U(Ending 3B)
-    K --> V(Ending 4A)
-    K --> W(Ending 4B)
-    L --> X(Ending 5A)
-    L --> Y(Ending 5B)
-    M --> Z(Ending 6A)
-    M--> AA(Ending 6B)
-    N --> BB(Ending 7A)
-    N --> CC(Ending 7B)
-    O --> DD(Ending 8A)
-    O --> EE(Ending 8B)
+A[Scene 1: Forest of Eldergrove]
+A --> B[Choose Class]
+B --> C(Knight)
+B --> D(Rogue)
+B --> E(Wizard)
+C --> F[Get Clues]
+D --> F
+E --> F
+F --> G[Choose Investigation]
+G --> H(Ancient Shrine)
+G --> I(Abandoned WatchTower)
+H --> J[Learn about Necromancer]
+I --> J
+J --> K[Obtain Holy Relic]
+K --> L[Enter Corrupted Forest]
+L --> M[Battle Undead Dragon]
+M --> N[Final Battle]
+N --> O[Knight Ending]
+N --> P[Rogue Ending]
+N --> Q[Wizard Ending]
+N --> R[Failure Ending]
    
     
